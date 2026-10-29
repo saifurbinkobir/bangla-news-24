@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bangla News 24
 
-## Getting Started
+A Bengali news web application built with **Next.js**, **React**, and **Tailwind CSS**. The website presents news through a newspaper-style homepage, category pages, and a scrolling headline ticker, with a Bengali interface and account features.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Visit Bangla News 24](https://bangla-news-24-seven-blond.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📖 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Bangla News 24 brings news headlines, featured stories, and category-based content into one interface. Readers can browse news cards containing images, headlines, summaries, and publication dates displayed in Bengali.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project uses **Better Auth** for its account integration and is deployed on **Vercel**.
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Bengali Interface:** Navigation, news content, and date formatting presented in Bengali.
+- **News Homepage:** Lead stories, featured news, and multiple news sections.
+- **Headline Ticker:** A scrolling strip of news headlines with links to individual stories.
+- **Category Pages:** Dedicated pages for browsing news by topic.
+- **News Cards:** Article previews with images, headlines, summaries, and publication dates.
+- **Responsive Layouts:** News grids and layouts that adapt to different screen sizes.
+- **Account Pages:** Sign-up and sign-in forms with email and password fields.
+- **Social Sign-In Options:** Google and GitHub options displayed on the sign-in page.
+- **Article Access:** Article routes prompt visitors who are not signed in to create an account.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Technology | Purpose |
+| --- | --- |
+| Next.js | Application framework and routing |
+| React | Component-based user interface |
+| Tailwind CSS | Utility-based styling and responsive layouts |
+| daisyUI | UI component styling |
+| Better Auth | Account and authentication integration |
+| Vercel | Application deployment and hosting |
 
-## Deploy on Vercel
+## 🗂️ News Categories
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The navigation includes:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Politics — রাজনীতি
+- World — বিশ্ব
+- Economy — অর্থনীতি
+- Health — স্বাস্থ্য
+- Sports — খেলা
+- Technology — প্রযুক্তি
+- Watch — দেখুন
+
+## 🔤 Typography
+
+The website uses **Noto Sans Bengali** for Bengali text.
+
+## 📰 Content Source
+
+The website credits [BBC Bangla](https://www.bbc.com/bengali) as its news source.
+
+Credit for the original reporting and associated images belongs to their respective publishers and creators.
+
+## 👨‍💻 Developer
+
+**Saifur Rahman**  
+Web Designer & Developer
